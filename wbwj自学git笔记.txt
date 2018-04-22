@@ -59,3 +59,9 @@ git使用教程：
   git push -u origin master 如果失败了那么就输入下面指令
   git pull --rebase origin master（先将内容合在推送）
   在使用上上个指令进行推送
+
+10.将远程仓库修改的东西申请到本地仓库
+	git fetch origin
+        git merge origin/master    测试通过
+
+
