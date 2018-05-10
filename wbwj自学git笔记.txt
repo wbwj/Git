@@ -13,8 +13,8 @@ git使用教程：
 	进入github网站添加SSH钥匙
 	ssh -T git@github.com
 6.git中创建名字邮箱：
-	git config user.name "名字"（可以随意，最好与网站信息一致）
-	git config user.email "2417353991@qq.com"(必须一致)
+	git config --global user.name "名字"（可以随意，最好与网站信息一致）
+	git config --global user.email "2417353991@qq.com"(必须一致)
 7.克隆库：
 	git clone (后面加入需要下载文件的网址)
         下载的位置可以随意定义（自己存放的位置：cd /E/GitHub）
